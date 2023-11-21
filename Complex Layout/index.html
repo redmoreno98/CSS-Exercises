@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html
+ 
+lang="en">
+
+<head>
+
+  
+<meta
+ 
+charset="UTF-8">
+
+  
+<meta
+ 
+name="viewport"
+ 
+content="width=device-width, initial-scale=1.0">
+
+  
+<title>Combined Flexbox and CSS Grid Layout</title>
+
+  <style>
+    /* Wrapper for the entire layout */
+    .wrapper {
+      display: flex;
+      height: 100vh; /* 100% viewport height */
+    }
+
+    /* Header */
+    .header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 200px;
+      background-color: #eee;
+      padding: 20px;
+      flex: 0 0 200px; /* Fixed sidebar width */
+    }
+
+    /* Main content area */
+    .main-content {
+      flex: 1; /* Stretches to fill remaining space */
+      padding: 20px;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1>My Website</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <aside class="sidebar">
+      <h2>Sidebar Menu</h2>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <h1>Main Content</h1>
+
+      
+<p>It is important to take care of the patient, to be followed by the patient, but it will happen at such a time that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by lust, they do not come forth; they are in fault who abandon their duties and soften their hearts, that is, their labors.</p>
+    </main>
+
+    <footer class="footer">
+      &copy; 2023 My Website
+    </footer>
+  </div>
+</body>
+</html>

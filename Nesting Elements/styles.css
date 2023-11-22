@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.parent-box {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.child-box {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.grandchild-box {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
